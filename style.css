@@ -1,0 +1,254 @@
+body {
+    background-image: url("111.webp");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    height: 40px;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.man {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+
+
+}
+
+.man a {
+    text-decoration: none;
+    color: white;
+}
+
+.man a:hover {
+    color: red;
+    border-radius: 8px;
+}
+
+.img {
+    display: flex;
+    border: 2px solid white;
+    height: 90vh;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 7px;
+    align-items: center;
+    text-overflow: ellipsis;
+}
+
+.img2 {
+    height: 70vh;
+    width: 27%;
+    border-radius: 8px;
+    margin-left: 26px;
+
+}
+
+.m13 {
+    padding-left: 15px;
+
+
+
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    padding-left: 15px;
+    font-weight: lighter;
+    color: white;
+}
+
+
+.manav4 {
+    margin-left: 34%;
+    color: black;
+    width: 20%;
+    border-radius: 8px;
+}
+
+.manav4:hover {
+    color: red;
+    border-radius: 8px;
+}
+
+.container3 {
+    margin: 10px;
+    display: flex;
+    height: 97vh;
+    border-radius: 8px;
+
+    border: 2px solid white;
+}
+
+.manav13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 70vh;
+    width: 35%;
+    border-radius: 8px;
+    margin-left: 26px;
+    margin-top: 7%;
+
+}
+
+.manav11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    color: white;
+    padding-left: 15px;
+    font-size: x-large;
+}
+
+.container5 {
+    display: flex;
+    color: white;
+    height: 97vh;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Manav15 {
+
+    color: white;
+    font-size: 30px;
+
+    margin: 30px;
+
+
+
+}
+
+.btn00 {
+    color: black;
+    margin: 0px 0px 0px 85px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.manav25 {
+
+    margin: 10px;
+}
+
+.manav35 {
+    margin: 10px;
+}
+
+.img3 {
+    height: 70vh;
+    width: 20%;
+    border-radius: 8px;
+    margin-top: 25px;
+
+}
+
+.form-control {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border-radius: 8px;
+}
+
+.img a {
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.img a:hover {
+    color: red;
+
+    text-decoration: none;
+
+}
+
+#exampleInputPassword1 {
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 690px) {
+    .img {
+        display: inline-table;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .img2 {
+        width: 40%;
+        padding-left: 25%;
+        height: 26rem;
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .container5 {
+
+        display: inline-table;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .img3 {
+
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .manav4 {
+
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .container3 {
+
+        display: inline-table;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .manav13 {
+        width: 50%;
+        padding-left: 10%;
+        height: 26rem;
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .Manav16 {
+        font-size: 20px
+    }
+}
